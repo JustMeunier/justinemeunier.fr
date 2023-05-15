@@ -17,12 +17,34 @@ nav {
 }
 
 .left {
-    float: left;
+    float: left;    
 }
 
 .right {
     float: right;
+
 }
+
+.btn-email {
+    font-family: Frank Ruhl Libre;
+    background:none;
+    border:none;
+    color:#fff;
+    font-size:20px;
+  }
+
+ .btn-email:hover .btn-email-hello {
+    display: none;
+  }
+
+.btn-email-copy, .btn-email-copied {
+    display:none;
+}
+
+.btn-email:hover .btn-email-copy {
+    display: inline;
+}
+
 
 nav img{
     width: 30%;
