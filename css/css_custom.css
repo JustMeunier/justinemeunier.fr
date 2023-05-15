@@ -1,0 +1,86 @@
+
+* {
+box-sizing:border-box;
+}
+
+body {
+    background:#010116;
+    margin:0px;
+    padding:0px;
+    
+}
+nav {
+    color:#fff;
+    font-family: Frank Ruhl Libre;
+    height: 10%;
+    padding:20px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+nav img{
+    width: 30%;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction : column;
+    width: 100%;
+    height: 35%;
+
+}
+h1 {
+    font-family: Frank Ruhl Libre;
+    font-weight: 900;
+    color:#fff;
+    font-size: 50px;
+    margin-bottom: 0%;
+}
+.txt-design {
+    color : #F29178;
+}
+.txt-dev {
+    color: #6DB3BF
+}
+h2 {
+    font-family:  Frank Ruhl Libre;
+    font-weight: 400;
+    color:#fff;
+    font-size:50px;
+    margin-top:0px;
+}
+
+h2 span {
+    font-weight: 900;
+}
+
+.hr-lune {
+    display: flex;
+    border-bottom: 1px solid #fff;
+}
+
+.lune {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #010116;
+    padding : 20 50;
+}
+
+
+.illustration {
+    height:55%
+}
+
+.illustration img {
+    display: block;
+    margin:auto;
+    height:90%
+}
